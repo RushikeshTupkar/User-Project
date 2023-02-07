@@ -1,0 +1,30 @@
+{
+    "1": {
+        "userId": "1",
+        "firstName": "Rushikesh",
+        "lastName": "Tupkar",
+        "emailId": "rushikesh@gmail.com",
+        "number": "8459281670",
+        "userName": "ushikeshtupkar",
+        "password": "Rushi@1234"
+    },
+    "2": {
+        "userId": "2",
+        "firstName": "Rushi",
+        "lastName": "Tupkar",
+        "emailId": "rushikesh@gmail.com",
+        "number": "8459281670",
+        "userName": "RushiTupkar",
+        "password": "Rushi@1234"
+    },
+    "3": {
+        "userId": "3",
+        "firstName": "Sonu",
+        "lastName": "Tupkar",
+        "emailId": "rushikesh@gmail.com",
+        "number": "8459281670",
+        "userName": "SonuTupkar123",
+        "password": "Rushi@1234"
+    }
+}
+

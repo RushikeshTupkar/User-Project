@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "ad5f18d0-2d82-4b09-8d75-67c9df597098",
+		"name": "RushiCollectionOfUserProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25472599"
+	},
+	"item": [
+		{
+			"name": "Save User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"userId\": \"2\",\r\n\"firstName\": \"Rushikesh\",\r\n\"lastName\": \"Tupkar\",\r\n\"emailId\": \"rushikesh@gmail.com\",\r\n\"number\": \"8459281670\",\r\n\"userName\": \"RushikeshTupka\",\r\n\"password\": \"Rushi@1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/addUser/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"addUser",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"1\",\r\n    \"firstName\": \"Rushikesh\",\r\n    \"lastName\": \"Tupkar\",\r\n    \"emailId\": \"rushikeshtupkar@438@gmail.com\",\r\n    \"number\": \"8459281670\",\r\n    \"userName\": \"rushikeshtupkar\",\r\n    \"password\": \"Rushi@1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/updateUser/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"updateUser",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/deleteUser/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"deleteUser",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/get-allUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"get-allUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/getUser/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"getUser",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
